@@ -6,7 +6,7 @@
     <parent>
         <groupId>me.filoghost.holographicdisplays</groupId>
         <artifactId>holographicdisplays-parent</artifactId>
-        <version>3.0.1-SNAPSHOT</version>
+        <version>3.0.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>holographicdisplays-core</artifactId>
@@ -114,6 +114,10 @@
             <artifactId>holographicdisplays-nms-v1_19_r2</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>holographicdisplays-nms-v1_19_r3</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
